@@ -50,7 +50,8 @@ a {
 
 main {
   display: flex;
-  gap: 30px
+  gap: 30px;
+  
 }
 
 .descriptionBoard {
@@ -67,7 +68,7 @@ main {
   justify-content: flex-start;
 }
 
-.button :first-child {
+#learnMore {
   display: flex;
   position: relative;
   background-color: var(--blue);
@@ -78,7 +79,14 @@ main {
   align-items: center;
 }
 
-.button :last-child {
+#blueArrow {
+  height: 40px;
+  width: 40px;
+  border-radius:10px;
+  background-color: var(--blue-solid);
+}
+
+#contactUs {
   display: flex;
   position: relative;
   background-color: var(--green);
@@ -152,7 +160,7 @@ main {
 .redBox {
   display: flex;
   position: absolute;
-  right: 0px;
+  right: 0;
   top: 260px;
   width: 40px;
   height: 40px;
